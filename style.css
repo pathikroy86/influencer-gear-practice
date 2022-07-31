@@ -74,6 +74,18 @@ header {
     width: 475px;
 }
 
+.popular-collection {
+    width: 1047px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
 .brands {
     width: 90%;
     border: 2px solid whitesmoke;
@@ -82,10 +94,86 @@ header {
     text-align: center;
     border-left: none;
     border-right: none;
+    margin-bottom: 100px;
 }
 
 .brands img {
     height: 42px;
     width: 76px;
     margin-right: 70px;
+}
+
+.popular-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+.gear {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.gear h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    margin-bottom: 6px;
+}
+
+.price {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.price p {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.fa-solid {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.rating span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6366;
+}
+
+.gear-info {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.gear-info p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.see-more {
+    margin-top: 50px;
+    text-align: end;
+}
+
+.see-more span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E02C6D;
+}
+
+.see-more .fa-arrow-right {
+    color: #E02C6D;
 }
