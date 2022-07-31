@@ -41,6 +41,10 @@ header {
     color: #3A3A3A;
 }
 
+.booking .fa-solid.fa-arrow-right {
+    color: white;
+}
+
 .top-section {
     display: flex;
     width: 100%;
